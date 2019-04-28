@@ -2,8 +2,8 @@ package com.prayag.desai.annotation;
 
 import org.springframework.stereotype.Component;
 
-@Component("sillyCoach")
-public class Tenniscoach implements Coach {
+@Component
+public class TennisCoach implements Coach {
 	
 	@Override
 	public String getDailyWorkout() {
